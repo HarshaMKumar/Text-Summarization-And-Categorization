@@ -1,5 +1,3 @@
-# Text Summarizer & Categorical &middot; [![GitHub](https://img.shields.io/github/license/ali-mohamed-nasser/Text-Summarizer-and-Categorical)](https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/LICENSE) ![GitHub top language](https://img.shields.io/github/languages/top/ali-mohamed-nasser/Text-Summarizer-and-Categorical) [![Codacy grade](https://img.shields.io/codacy/grade/cd25af7df2854c4588f4e0439223e708)](https://www.codacy.com/gh/ali-mohamed-nasser/Text-Summarizer-and-Categorical/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ali-mohamed-nasser/Text-Summarizer-and-Categorical&amp;utm_campaign=Badge_Grade)
-
 ### Introduction
 Summarization is the task of condensing a piece of text to a shorter version, reducing the size of the initial text while at the same time preserving key informational elements and the meaning of content. Since manual text summarization is a time expensive and generally laborious task, the automatization of the task is gaining increasing popularity and therefore constitutes a strong motivation for academic research. Automatic text summarization is a common problem in machine learning and natural language processing (NLP).
 
@@ -14,8 +12,7 @@ The graphical user interface (GUI) is the point of human-computer interaction an
 # Knowledges required for this project
 ### Python programming language
 Basic knowledge of coding and syntax formats of python is essential for this project. Python is advantageous as it easy to comprehend and consists of large number of inbult libraries that facilitate faster outputs.
-- Learn python through tutorials from [python.org](https://www.python.org/about/gettingstarted/)
-- Download python from [python.org](https://www.python.org/downloads/)
+
 
 ### NLTK Library
 NLTK is a leading platform for building Python programs to work with human language data. t provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries, and an active discussion forum.
