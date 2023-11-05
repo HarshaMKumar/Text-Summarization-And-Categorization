@@ -9,47 +9,25 @@ The graphical user interface (GUI) is the point of human-computer interaction an
 
 <img src="https://github.com/ali-mohamed-nasser/Text-Summarizer-and-Categorical/blob/main/images/ui.svg" width="1200">
 
-# Knowledges required for this project
+# Technologies used for this project
 ### Python programming language
 Basic knowledge of coding and syntax formats of python is essential for this project. Python is advantageous as it easy to comprehend and consists of large number of inbult libraries that facilitate faster outputs.
 
 
 ### NLTK Library
 NLTK is a leading platform for building Python programs to work with human language data. t provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries, and an active discussion forum.
-- Learn NLTK through book from [nltk.org](https://www.nltk.org/book/)
-- Install NLTK using pip ``` pip install nltk ```
-- Install NLTK in anaconda environment ``` conda install -c anaconda nltk ```
-- To installing NLTK data run the python interpreter or new Jupiter notebook in anaconda then type the following commands:
-``` import nltk ``` then ``` nltk.download() ```
-- A new window should open, showing the NLTK downloader. Next, select the packages or collections you want to download. And for more information see the documentation from [nltk.org](https://www.nltk.org/data.html)
 
 ### Pandas Library
 In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
-- Learn Pandas from [pandas.pydata.org](https://pandas.pydata.org/docs/)
-- Install Pandas using pip ``` pip install pandas ```
-- Install Pandas in anaconda environment ``` conda install -c anaconda pandas ```
 
 ### Urllib & Beautifulsoup4 Libraries
 This two libraries help in working with URL and fetching data from external websites to add it to the main program for the summarize and categorize.
-- Install urllib ``` pip install urllib3 ```
-- Install beautifulsoup4 ``` pip install beautifulsoup4 ```
 
 ### Scikit Learn
 Scikit-learn is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities.
-- Learn Scikit-learn from [scikit-learn.org](https://scikit-learn.org/stable/user_guide.html)
-- Install Scikit-learn using pip ``` pip install scikit-learn ```
-- Install Scikit-learn in anaconda environment ``` conda install -c anaconda scikit-learn ```
-- To save and load models you need to install pickle ``` pip install pickle-mixin ```
 
 ### Flask Framework
 Flask is a popular Python web framework, meaning it is a third-party Python library used for developing web applications.
-- Install Flask on your machine ``` pip install Flask ```
-
-# Usage
-To run this project make sure you have the required installation of Python, NLTK with it's data, urllib, bs4, pandas, Scikit-learn, and Flask framework then follow the steps given below:
-- Clone or download this repository ``` https://github.com/ali-mohamed-nasser/Text-Summarizer-Categorical.git ```
-- Run the ``` main.py ``` file to start Flask server and use the application.
-- You don't need to train classification models on your own. I have trained all model and saved it in the dictionary ``` models ```, but you have the datasets in ``` dataset ``` directory and the Jupiter notebook ``` NLTK Summarizer.ipynb ``` so you can retrain it if you want.
 
 # How does it work?
 After reading the input text and the number of sentences from the user and getting the model name and the language, then pass that information to the main function that apply the text summarization and get the right category and for each input text we do the following steps.
@@ -155,13 +133,3 @@ Logistic Regression | 98.9% | 92.1%
 K-Nearest Neighbors | 95.9% | 91.3%
 Gaussian Naive Bayes | 94.6% | 88.2%
 
-# References
-Here is a list of sources I used to build this project:
-- Dataset used to train the models from [kaggle](https://www.kaggle.com/). No need to download the datasets, it provided with this project.
-- NLTK tutorial book from [nltk.org](https://www.nltk.org/book/)
-- Text Preprocessing for NLP (Natural Language Processing) in [medium.com](https://medium.com/analytics-vidhya/text-preprocessing-for-nlp-natural-language-processing-beginners-to-master-fd82dfecf95)
-- [Building a Text Summarizer Flask App](https://www.youtube.com/watch?v=xvLQdP549NA&list=PLJ39kWiJXSiyAFG2W3CUPWaLhvR5CQmTd&index=9). I watched 70% of this video.
-- Text Classification Algorithms on [medium.com](https://medium.com/text-classification-algorithms/text-classification-algorithms-a-survey-a215b7ab7e2d)
-- News classification tutorial on [youtube.com](https://www.youtube.com/watch?v=dtK7Xhn8XjY)
-- Scikit learn tutorials from [scikit-learn.org](https://scikit-learn.org/stable/user_guide.html)
-- Flask Tutorials playlist [here](https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX)
